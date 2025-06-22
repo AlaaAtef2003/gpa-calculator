@@ -140,6 +140,7 @@ tr:hover {
         font-size: 1.3em; 
     }
 
+<<<<<<< HEAD
     header .navigation a {
         margin-right: 10px; 
     }
@@ -178,3 +179,8 @@ tr:hover {
         margin-top: 20px; 
     }
 }
+=======
+        tr:hover {
+        background-color: #f4e4f5;
+        }
+>>>>>>> ad9aa5fda8ca6f9ea62d580bdf5681262a1d7d36
