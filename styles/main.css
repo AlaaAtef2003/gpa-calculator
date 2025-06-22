@@ -11,7 +11,7 @@
 
     font-family: Arial, sans-serif;
 
-    background-image: url("/img/home.jpg");
+    background-image: url("../img/home.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@
     }
     h2{
         margin-bottom: 0;
-          color:  #d2d1d3;
+        color:  #d2d1d3;
     }
     .card{
         margin-bottom: 50px;
@@ -119,8 +119,8 @@ table {
     width: 60%;
     margin: 20px auto;
     border-radius: 8px;
-    border-collapse: collapse; /* ✅ تصحيح هنا */
-    background-color: rgba(244, 228, 245, 0.7); /* ✅ تحسين الشفافية */
+    border-collapse: collapse; 
+    background-color: rgba(244, 228, 245, 0.7); 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-style: hidden;
     }
@@ -128,7 +128,7 @@ table {
 th, td {
     border: 1px solid   #d2d1d3;
     padding: 10px;
-    text-align: center; /* ✅ جعل النص وسط الخلية */
+    text-align: center; 
     }
 thead{
     border-radius: 8px;
