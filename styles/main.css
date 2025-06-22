@@ -8,13 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-<<<<<<< HEAD
     background-image: url("../img/home.jpg");
-=======
-
-    background-image: url("../img/home.jpg");
-
->>>>>>> ad9aa5fda8ca6f9ea62d580bdf5681262a1d7d36
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,7 +56,7 @@ h2 {
     margin: 9px;
     margin-left: 0;
     margin-bottom: 0;
-    width: 150px;
+    width: 250px;
 }
 
 .submit {
@@ -161,7 +155,6 @@ tr:hover {
 .total {
     margin-left: 20px;
 }
-<<<<<<< HEAD
 
 header {
     width: 100%;
@@ -254,5 +247,3 @@ header .navigation a:hover {
         font-size: 14px; /* Smaller font size */
     }
 }
-=======
->>>>>>> ad9aa5fda8ca6f9ea62d580bdf5681262a1d7d36

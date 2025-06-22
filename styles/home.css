@@ -8,7 +8,7 @@ body {
 section {
     background: #351e53;
     padding: 15px;
-    min-height: 700px;
+    min-height:600px;
 }
 
 .mm {
@@ -60,9 +60,13 @@ header {
     align-items: center;
     padding: 10px;
 }
-
-.logo  p{
+.logo{
     display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.logo  p{
+   
     font-size: 20px;
     align-items: center;
     gap: 10px;
@@ -71,6 +75,7 @@ header {
 
 header .logo i {
     font-size: 24px;
+    color: #ddd;
 }
 
 header .navigation a {
@@ -85,7 +90,6 @@ header .navigation a:hover {
     color: #c43169;
     text-decoration: underline;
 }
-
 button {
     background-color: #351e53;
     border: 0;
@@ -140,7 +144,6 @@ tr:hover {
         font-size: 1.3em; 
     }
 
-<<<<<<< HEAD
     header .navigation a {
         margin-right: 10px; 
     }
@@ -179,8 +182,3 @@ tr:hover {
         margin-top: 20px; 
     }
 }
-=======
-        tr:hover {
-        background-color: #f4e4f5;
-        }
->>>>>>> ad9aa5fda8ca6f9ea62d580bdf5681262a1d7d36
