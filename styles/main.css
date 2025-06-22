@@ -1,0 +1,149 @@
+    body {
+    margin: 0;
+    padding: 20px;
+    margin-top: 20px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    background-image: url("/img/home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+    p{
+        font-size: 50px;
+        margin: 0;
+        text-align: center; 
+        color:  #d2d1d3;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 6px;
+    }
+    h1 {
+        color:  #d2d1d3;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    h2{
+        margin-bottom: 0;
+          color:  #d2d1d3;
+    }
+    .card{
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #ffffff67;
+        padding: 2em;
+        width: 900px ;
+        border-radius: 10px;
+    }
+    .Grade ,input  {
+        border-radius: 4px;
+        border-width: 0.5px;
+        padding: 5px;
+        margin: 9px;
+        margin-left: 0;
+        margin-bottom:0 ;
+        width: 250px ;   
+    }
+
+    
+    .submit{
+        display: flex;
+        align-items:center ;
+        justify-content: center;
+        background-color: #5d3975;
+        color:  #d2d1d3;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 8px;
+        border-style: hidden;
+        box-shadow: 6 5px 15px rgba(0, 0, 0, 0.854);
+        margin-bottom: 10px;
+        align-items: center;
+        transition: 0.7s ease;
+
+    }
+    .Current{
+    padding: 20px;
+    
+    }
+    .course_info , .Current{
+        display: flex;
+        gap:20px ;
+        margin-top: 0;
+        align-items: center;
+        justify-content: center;
+        flex: 1fr 1fr 1fr ;
+
+        
+    }
+    .submit:hover, .add:hover{
+        opacity: 0.7;
+        transform: scale(1.1,1.1);
+
+    }
+    .submit:active ,  .add:active{
+        opacity: 1.5;
+    }
+    .result{
+        color: #5d3975;
+        font-weight: 50;
+        font-size: 40px;
+    }
+        @keyframes rise {
+        0% {
+            bottom: -50px;
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            bottom: 100%;
+            opacity: 0;
+        }
+        }
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 8px;
+    border-collapse: collapse; /* ✅ تصحيح هنا */
+    background-color: rgba(244, 228, 245, 0.7); /* ✅ تحسين الشفافية */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-style: hidden;
+    }
+
+th, td {
+    border: 1px solid   #d2d1d3;
+    padding: 10px;
+    text-align: center; /* ✅ جعل النص وسط الخلية */
+    }
+thead{
+    border-radius: 8px;
+}
+th {
+    background-color: #5d3975;
+    color:  #d2d1d3;
+}
+tr:hover {
+    background-color: #f4e4f5;
+}
+.act{
+    display: flex;
+    padding: 15px 15px;
+}
+.total{
+    margin-left: 20px;
+}
