@@ -241,6 +241,7 @@ header .navigation a:hover {
         font-size: 18px; /* Adjust total font size */
     }
 
+    
     /* Adjust header navigation for small screens */
     header .navigation a {
         margin-right: 10px; /* Reduce spacing */
