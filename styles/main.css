@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    background-image: url("/gpa-calculator/img/home.jpg");
+    background-image: url("../img/home.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
