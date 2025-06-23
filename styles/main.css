@@ -212,7 +212,7 @@ header .navigation a:hover {
     }
 
     .Grade, input {
-        width: 100%; /* Full width for inputs */
+        width: 90%; /* Full width for inputs */
     }
 
     table {
@@ -244,7 +244,7 @@ header .navigation a:hover {
     
     /* Adjust header navigation for small screens */
     header .navigation a {
-        margin-right: 10px; /* Reduce spacing */
+        margin-right: 15px; /* Reduce spacing */
         font-size: 14px; /* Smaller font size */
     }
 }
